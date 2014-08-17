@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "35CC64081998CEAD005B470C"
-               BuildableName = "MultiColourProgressBar.app"
+               BuildableName = "MutilColorProgressBar.app"
                BlueprintName = "MutilColorProgressBar"
                ReferencedContainer = "container:MutilColorProgressBar.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "35CC64291998CEAE005B470C"
-               BuildableName = "MultiColourProgressBarTests.xctest"
+               BuildableName = "MutilColorProgressBarTests.xctest"
                BlueprintName = "MutilColorProgressBarTests"
                ReferencedContainer = "container:MutilColorProgressBar.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "35CC64081998CEAD005B470C"
-            BuildableName = "MultiColourProgressBar.app"
+            BuildableName = "MutilColorProgressBar.app"
             BlueprintName = "MutilColorProgressBar"
             ReferencedContainer = "container:MutilColorProgressBar.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "35CC64081998CEAD005B470C"
-            BuildableName = "MultiColourProgressBar.app"
+            BuildableName = "MutilColorProgressBar.app"
             BlueprintName = "MutilColorProgressBar"
             ReferencedContainer = "container:MutilColorProgressBar.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "35CC64081998CEAD005B470C"
-            BuildableName = "MultiColourProgressBar.app"
+            BuildableName = "MutilColorProgressBar.app"
             BlueprintName = "MutilColorProgressBar"
             ReferencedContainer = "container:MutilColorProgressBar.xcodeproj">
          </BuildableReference>

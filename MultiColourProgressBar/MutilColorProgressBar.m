@@ -127,11 +127,13 @@ typedef NS_ENUM(NSInteger,ProgressBarBackGroundColor)
 
 -(void)paused
 {
-    CGRect rect = self.frame;
-    UIView * markView = [[UIView alloc]initWithFrame:CGRectMake(rect.size.width - _detailWidth,rect.origin.y ,_detailWidth,rect.size.height )];
-    [markView setBackgroundColor:self.backgroundColor];
-    [_coloredBars addObject:markView];
-    [self addSubview:markView];
+    if (_detailWidth > 0) {
+        CGRect rect = self.frame;
+        UIView * markView = [[UIView alloc]initWithFrame:CGRectMake(rect.size.width - _detailWidth,rect.origin.y ,_detailWidth,rect.size.height )];
+        [markView setBackgroundColor:self.backgroundColor];
+        [_coloredBars addObject:markView];
+        [self addSubview:markView];
+    }
     [self.progressTimer setFireDate:[NSDate distantFuture]];
 }
 
